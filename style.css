@@ -209,6 +209,7 @@ main section {
 .resumi-container hr {
     margin: 30px;
 }
+
 .download-cv {
     text-align: center;
     margin: 50px 0 100px 0;
@@ -219,9 +220,25 @@ footer {
     display: flex;
     gap: 100px;
     background: #fff8f3;
-    padding: 130px 200px; 
+    padding: 130px 200px;
     margin-top: 100px;
- }
+}
+
 .footer-column {
     width: 50%;
+}
+
+.contact input[type=text],
+.contact input[type=email],
+textarea {
+    color: #757575;
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    background: #fff;
+    border: 0;
+    width: 100%;
+}
+.social-link a {
+    margin-left: 24px;
 }
