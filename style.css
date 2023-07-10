@@ -70,9 +70,9 @@ nav a {
 
 .header {
     background: #FFF8F3;
-    background-image: url(images/header_bg.png),url('images/developer.png');
+    background-image: url(images/header_bg.png), url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right ,top left;
+    background-position: bottom right, top left;
 
 }
 
@@ -81,7 +81,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
+}
 
 .banner-content {
     max-width: 500px;
@@ -238,6 +238,7 @@ textarea {
     border: 0;
     width: 100%;
 }
+
 .social-link a {
     margin-left: 24px;
 }
